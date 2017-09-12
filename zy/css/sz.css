@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+ul, ol, dl { list-style: none; }
+
+body, html { background: #f4f4f4; }
+
+.box { display: flex; flex-direction: column; width: 100%; height: 100%; }
+
+header { display: flex; justify-content: center; align-items: center; width: 100%; height: 2.4rem; font-size: 0.96rem; background: pink; position: relative; }
+header span { display: block; display: inline-flex; }
+header .change { position: absolute; left: 20px; width: 20px; height: 20px; border: 1px solid transparent; border-left: 1px solid black; border-top: 1px solid black; transform: rotate(-45deg); }
+
+section { flex: 1; display: flex; border-top: 1px solid #ccc; background: white; color: #ababab; font-size: 0.8rem; }
+section ul { width: 100%; }
+section ul li { display: flex; justify-content: space-between; align-items: center; height: 60px; width: 100%; border-bottom: 1px solid #ccc; }
+section ul li span { display: inline-flex; justify-content: flex-end; align-items: center; width: 50%; }
+
+/*# sourceMappingURL=sz.css.map */

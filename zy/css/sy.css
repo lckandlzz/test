@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body, html { width: 100%; height: 100%; box-sizing: border-box; background: #fafafa; }
+
+ul, a { list-style: none; text-decoration: none; }
+
+.box { width: 100%; height: 100%; display: flex; flex-direction: column; }
+
+.box header { width: 100%; height: 60px; background: pink; text-align: center; line-height: 60px; font-size: 24px; color: white; }
+.box header span { display: block; position: absolute; width: 20px; height: 20px; border: 1px solid transparent; border-left: 1px solid white; border-bottom: 1px solid white; transform: rotate(45deg); margin-left: 30px; margin-top: 20px; }
+
+section { width: 100%; height: 100%; flex: 1; background: #e5e6e7; }
+section .content-a { width: 100%; height: 88px; overflow: hidden; }
+section .content-a span { display: inline-block; width: 49%; height: 88px; text-align: center; line-height: 88px; font-size: 24px; }
+section .content-a .sj { border-bottom: 1px solid pink; }
+section .content-sj { padding-top: 42px; width: 100%; }
+section .content-sj input { width: 100%; height: 60px; border: none; font-size: 21px; color: #b0b0b0; text-indent: 20px; }
+section .content-yz { padding-top: 30px; width: 100%; }
+section .content-yz input { width: 100%; height: 60px; border: none; font-size: 21px; color: #b0b0b0; text-indent: 20px; }
+section .content-wj { padding: 10px; float: right; }
+section .content-dl { padding-top: 60px; width: 100%; text-align: center; }
+section .content-dl input { width: 100%; height: 50px; border-radius: 10px; border: none; font-size: 21px; background: pink; }
+
+footer { width: 100%; padding-top: 20px; }
+
+/*# sourceMappingURL=sy.css.map */

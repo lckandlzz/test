@@ -1,0 +1,55 @@
+* { padding: 0; margin: 0px; }
+
+ul, ol, dl { list-style: none; }
+
+a { text-decoration: none; }
+
+html, body { width: 100%; height: 100%; box-sizing: border-box; }
+
+.main-header { width: 100%; height: 88px; z-index: 100; font-size: 13px; position: relative; }
+
+.main-header .wrappar { width: 100%; height: 28px; background: #009B72; }
+
+.main-header .header-right { max-width: 1200px; margin: 0 auto; height: 28px; }
+
+.main-header .header-right ul { width: 400px; height: 28px; position: absolute; right: 0; top: 0; }
+
+.main-header .header-right li { width: 67px; height: 28px; border-left: 1px solid #47b488; float: left; text-align: center; line-height: 28px; }
+
+.main-header .header-right li a { color: white; }
+
+.main-header .header-right li:nth-child(3) { width: 80px; height: 26px; margin-left: 2px; line-height: 24px; border-left: 1px solid #47b488; }
+
+.main-header .header-right li:hover { background: #47b488; }
+
+.main-header .main-nav { max-width: 1200px; height: 58px; margin: 0 auto; position: relative; }
+
+.main-header .main-nav .logo-list { float: left; margin-left: 10px; }
+
+.main-header .main-nav .logo-list a h3 img { line-height: 58px; max-height: 19px; height: 19px; vertical-align: middle; margin-top: 19px; }
+
+.main-header .main-nav .logo-lis { float: right; margin-right: 150px; }
+
+.main-header .main-nav .logo-lis ul li { float: left; margin-left: 25px; line-height: 58px; float: left; }
+
+.main-header .main-nav .logo-lis ul li a:hover { color: black; }
+
+.main-header .main-nav .logo-lis ul .l1 { height: 45px; border-bottom: 2px solid #009B72; }
+
+.main-header .main-nav .logo-lis ul li a { color: #7b7b7b; font-size: 13px; }
+
+.main-header .main-nav .right-g { display: block; width: 39px; height: 40px; position: absolute; right: 90px; top: 10px; background: url(../image/1.png) no-repeat; }
+.main-header .main-nav .right-g .right-s { display: block; width: 29px; height: 29px; color: white; font-size: 15px; text-align: center; line-height: 29px; border-radius: 50%; background: #2aad6f; position: absolute; right: -20px; }
+
+.hero-image { height: 650px; width: 100%; overflow: hidden; }
+.hero-image a { display: block; }
+.hero-image a img { position: relative; top: 50%; margin: 0; height: auto; height: 650px; width: 100%; }
+
+.box { padding: 70px 0; width: 100%; height: 100%; }
+.box .content { width: 1200px; margin: 0 auto; }
+.box .content .content-a { height: 472px; width: 294px; border: 1px solid black; float: left; padding: 50px; }
+.box .content .content-a .hh { padding: 30px 0 20px; }
+.box .content .content-a .hh a display:block img { vertical-align: middle; height: auto; max-width: 100%; }
+.box .content .content-a .hh h2 { font-size: 16px; font-size: 1rem; font-weight: 400; min-height: 38px; }
+
+/*# sourceMappingURL=ty.css.map */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/sz.css"/>
+		<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+		<script>
+			document.documentElement.style.fontSize=innerWidth/16+"px";
+		</script>
+		
+
+	</head>
+	<body>
+		<div class="box">
+			<header>
+				<span class="change"></span>
+				<span class="header-cen">设置</span>
+			</header>
+			<section>
+				<ul>
+					<li>字体设置<span>跟随系统></span></li>
+					<li>正文字号<span>中></span></li>
+					<li>字体语言<span>简体中文></span></li>
+					<li>字体颜色<span>黑色></span></li>
+					<li>夜间模式<span></span></li>
+					<li>自动夜间模式<span></span></li>
+					<li>双击关闭文章<span></span></li>
+					<li>色彩图标<span></span></li>
+					<li>加载图标<span>仅WiFi下</span></li>
+					<li>离线<span></span></li>
+					<li>推送设置<span>></span></li>
+					<li>关于我们</li>
+					<li>意见反馈</li>
+					<li>清理缓存<span>0M</span></li>
+				</ul>
+			</section>
+		</div>
+		<script>
+			$(function(){
+				$(".change").on("touchstart",function(){
+					window.location.href="../index.html";
+				})
+			})
+		</script>
+	</body>
+</html>

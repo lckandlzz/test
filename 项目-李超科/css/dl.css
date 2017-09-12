@@ -1,0 +1,42 @@
+* { padding: 0; margin: 0; }
+
+body, html { width: 100%; height: 100%; font-size: 14px; }
+
+a { text-decoration: none; }
+
+ul, ol, dl { list-style: none; }
+
+input { outline: 0; border: 0; }
+
+.wrappen { width: 100%; min-height: 680px; }
+.wrappen .header { width: 100%; height: 34px; background: #2aad6f; color: black; }
+.wrappen .header ul { width: 958px; height: 34px; margin: 0 auto; }
+.wrappen .header ul li { float: left; line-height: 34px; border-left: 1px solid #47b488; }
+.wrappen .header ul li a { color: white; display: block; padding: 0 20px; }
+.wrappen .header ul li a:hover { background: #47b488; }
+.wrappen .login_box { padding-top: 80px; }
+.wrappen .login_box .mainbox { width: 320px; margin: 0 auto; }
+.wrappen .login_box .mainbox .lgnheader { margin-bottom: 45px; }
+.wrappen .login_box .mainbox .lgnheader .logo { width: 205px; height: 34px; background: url(../image/img/login-logo.png) no-repeat; background-size: 100% 100%; margin: 0 auto 20px; }
+.wrappen .login_box .mainbox .lgnheader .title { font-size: 15px; color: #363636; text-align: center; font-weight: 500; }
+.wrappen .login_box .mainbox .login_area .input_area { position: relative; margin-top: 10px; }
+.wrappen .login_box .mainbox .login_area .input_area .username, .wrappen .login_box .mainbox .login_area .input_area .pwd { width: 286px; display: block; height: 20px; line-height: 20px; padding: 12px 16px; font-size: 14px; background: #fff; border: 1px solid #e2e2e2; margin: 0 auto; }
+.wrappen .login_box .mainbox .login_area .field { height: 15px; line-height: 15px; margin-top: 10px; width: 320px; }
+.wrappen .login_box .mainbox .login_area .field .text_green { color: #00925f; text-decoration: underline; float: right; font-size: 12px; }
+.wrappen .login_box .mainbox .login_area .field .clear { clear: both; }
+.wrappen .login_box .mainbox .login_area .button { display: block; text-align: center; width: 320px; height: 46px; line-height: 46px; font-size: 16px; cursor: pointer; background: #2aad6f; }
+.wrappen .login_box .mainbox .login_area .mt { margin-top: 30px; }
+.wrappen .login_box .mainbox .login_area .login_button { margin-bottom: 15px; color: #fff; }
+.wrappen .login_box .mainbox .login_area .register_button { background: #fff; border: 1px solid #e2e2e2; color: #363636; }
+.wrappen .login_box .mainbox .login_area .error_tip1 { margin-top: 10px; padding-top: 5px; min-height: 12px; }
+.wrappen .login_box .mainbox .login_area .n_links_area { margin-top: 20px; color: #878b8a; }
+.wrappen .login_box .mainbox .login_area .n_links_area .oth_type_list { background: url(../image/ico_title.png) no-repeat; width: 318px; height: 23px; margin: 0 auto; }
+.wrappen .login_box .mainbox .login_area .n_links_area .oth_links_area { text-align: center; padding: 25px; }
+.wrappen .login_box .mainbox .login_area .n_links_area .oth_links_area .other_link { height: 30px; width: 30px; display: inline-block; margin: 0 8px; text-indent: -9999px; vertical-align: middle; }
+.wrappen .login_box .mainbox .login_area .n_links_area .oth_links_area .ico_qq { background: url(../image/ico_qq.jpg) no-repeat; background-size: 100% 100%; }
+.wrappen .login_box .mainbox .login_area .n_links_area .oth_links_area .ico_wb { background: url(../image/ico_wb.jpg) no-repeat; background-size: 100% 100%; }
+.wrappen .login_box .mainbox .login_area .n_links_area .oth_links_area .ico_alipay { background: url(../image/ico_alipay.jpg) no-repeat; background-size: 100% 100%; }
+.wrappen .login_box .mainbox .login_area .n_links_area .oth_links_area .ico_wx { background: url(../image/ico_wx.jpg) no-repeat; background-size: 100% 100%; }
+.wrappen .login_box .footer_info { color: #7b7b7b; font-size: 12px; text-align: center; margin-top: 30px; padding: 24px 0; position: relative; }
+
+/*# sourceMappingURL=dl.css.map */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/zc.css"/>
+		<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript">
+			document.documentElement.style.fontSize=innerWidth/16+"px";
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<header>
+				<span class="zf"></span>快速注册
+			</header>
+			<section>
+				<div class="txt">
+					<input type="text" placeholder="请输入你的手机号码"/>
+				</div>
+				<div class="yz">
+					<input type="button" value=">>依次点击“王”“痛”“伤”完成验证<<"/>
+				</div>
+				<div class="btn">
+					<input type="button" value="下一步"/>
+				</div>
+				<div class="check">
+					<input type="checkbox"/>同意<a href="#">《同意协议》</a>
+				</div>
+			</section>
+			<footer>
+				没有帐号？快速注册
+			</footer>
+		</div>
+		<script>
+			$(function(){
+				$(".zf").on("touchstart",function(){
+					window.location.href="../index.html";
+				})
+			})
+		</script>
+	</body>
+</html>
