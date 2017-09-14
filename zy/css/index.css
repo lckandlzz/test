@@ -1,57 +1,241 @@
-@font-face { font-family: 'iconfont'; src: url("iconfont.eot"); src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.svg#iconfont") format("svg"); }
-.iconfont { font-family: "iconfont" !important; font-size: 25px; font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 25px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-ul, ol, li { list-style: none; }
+ul, ol, li {
+  list-style: none; }
 
-a { text-decoration: none; }
+a {
+  text-decoration: none; }
 
-body { width: 100%; height: 100%; padding-top: 2.88rem; padding-bottom: 3.2rem; overflow-y: scroll; }
+body {
+  width: 100%;
+  height: 100%;
+  padding-top: 2.88rem;
+  padding-bottom: 3.2rem;
+  overflow-y: scroll; }
 
-.box { display: flex; flex-direction: column; position: relative; }
+.box {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
 
-header { display: flex; width: 100%; height: 2.88rem; background: pink; position: fixed; font-size: 1.04rem; z-index: 100; top: 0; left: 0; }
-header ul { width: 100%; display: flex; }
-header ul li { width: 25%; line-height: 2.88rem; text-align: center; flex-wrap: nowrap; }
-header ul li a { color: black; }
-header ul .list { position: relative; }
-header ul .active { border-bottom: 1px solid red; }
-header .header-container { position: absolute; width: 100%; display: flex; flex-direction: column; background: white; display: none; }
-header .header-container .head-top { display: flex; justify-content: center; align-items: center; width: 100%; height: 2.88rem; background: pink; position: relative; }
-header .header-container .head-top .h-change { display: block; width: 0.8rem; height: 1rem; transform: rotate(45deg); border-left: 1px solid black; border-bottom: 1px solid black; position: absolute; left: 0.8rem; }
-header .header-container .content-main { width: 100%; height: 1.6rem; display: flex; font-size: 1rem; justify-content: space-around; align-items: center; }
-header .header-container .content-main .content-left { display: flex; width: 2.8rem; height: 1.2rem; border: 1px solid red; border-radius: 0.4rem; justify-content: center; align-items: center; }
-header .header-container ul { display: flex; flex-direction: column; width: 100%; height: 100%; }
-header .header-container ul li { display: flex; justify-content: space-around; align-items: center; width: 100%; font-size: 0.8rem; height: 2.4rem; }
-header .header-container ul li span { display: inline-block; width: 3.6rem; height: 2rem; border-radius: 0.4rem; border: 1px solid #ccc; display: inline-flex; justify-content: center; align-items: center; }
-header .header-container ul li span b { font-size: 1.2rem; font-weight: normal; line-height: 1.48rem; height: 1.6rem; }
+header {
+  display: flex;
+  width: 100%;
+  height: 2.88rem;
+  background: pink;
+  position: fixed;
+  font-size: 1.04rem;
+  z-index: 100;
+  top: 0;
+  left: 0; }
+  header ul {
+    width: 100%;
+    display: flex; }
+    header ul li {
+      width: 25%;
+      line-height: 2.88rem;
+      text-align: center;
+      flex-wrap: nowrap; }
+      header ul li a {
+        color: black; }
+    header ul .list {
+      position: relative; }
+    header ul .active {
+      border-bottom: 1px solid red; }
+  header .header-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    display: none; }
+    header .header-container .head-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 2.88rem;
+      background: pink;
+      position: relative; }
+      header .header-container .head-top .h-change {
+        display: block;
+        width: 0.8rem;
+        height: 1rem;
+        transform: rotate(45deg);
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        position: absolute;
+        left: 0.8rem; }
+    header .header-container .content-main {
+      width: 100%;
+      height: 1.6rem;
+      display: flex;
+      font-size: 1rem;
+      justify-content: space-around;
+      align-items: center; }
+      header .header-container .content-main .content-left {
+        display: flex;
+        width: 2.8rem;
+        height: 1.2rem;
+        border: 1px solid red;
+        border-radius: 0.4rem;
+        justify-content: center;
+        align-items: center; }
+    header .header-container ul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%; }
+      header .header-container ul li {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        font-size: 0.8rem;
+        height: 2.4rem; }
+        header .header-container ul li span {
+          display: inline-block;
+          width: 3.6rem;
+          height: 2rem;
+          border-radius: 0.4rem;
+          border: 1px solid #ccc;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center; }
+          header .header-container ul li span b {
+            font-size: 1.2rem;
+            font-weight: normal;
+            line-height: 1.48rem;
+            height: 1.6rem; }
 
-section { flex: 1; width: 100%; height: 100%; }
-section .container { display: flex; width: 100%; height: 100%; }
-section .container div { border: none; }
-section .container .first { flex-shrink: 0; width: 100%; height: 100%; border: none; }
-section .container .first .swiper-container { width: 100%; height: 267px; position: relative; }
-section .container .first .swiper-container .swiper-wrapper div { height: 267px; }
-section .container .first .swiper-container .swiper-wrapper div span { position: absolute; left: 10%; bottom: 40px; color: white; font-size: 16px; }
-section .container .first .swiper-container .swiper-wrapper div img { width: 100%; height: auto; }
-section .container .first .content-a { display: flex; width: 100%; height: 30px; font-size: 14px; justify-content: center; align-items: center; }
-section .container .first .content-a span { display: inline-block; text-align: center; width: 49%; }
-section .container .first .content-a .span-a { border-right: 1px solid #ccc; }
-section .container .first .content-a input { display: flex; justify-content: center; align-items: center; color: white; background: pink; border: none; width: 70%; height: 30px; }
-section .container .first .kou { margin-top: 10px; padding-left: 100%; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; background: #edf1f4; }
-section .container .first .content-b { display: flex; justify-content: space-between; align-items: center; width: 100%; height: 110px; border-bottom: 1px solid #ccc; }
-section .container .first .content-b .txt { width: 100%; display: inline-flex; flex-direction: column; }
-section .container .first .content-b .txt .pp { flex: 1; display: flex; padding-top: 10px; font-size: 12px; }
-section .container .first .content-b .img { display: flex; Width: 67%; }
-section .container .first .content-b .img img { width: 100%; height: 100px; justify-content: space-between; }
-section .ms img, section .nba img, section .xin img { width: 100%; height: auto; overflow: hidden; }
+section {
+  flex: 1;
+  width: 100%;
+  height: 100%; }
+  section .container {
+    display: flex;
+    width: 100%;
+    height: 100%; }
+  section .container div {
+    border: none;
+    overflow-y: scroll; }
+  section .container .first {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    border: none; }
+    section .container .first .swiper-container {
+      width: 100%;
+      height: 267px;
+      position: relative; }
+      section .container .first .swiper-container .swiper-wrapper div {
+        height: 267px; }
+        section .container .first .swiper-container .swiper-wrapper div span {
+          position: absolute;
+          left: 10%;
+          bottom: 40px;
+          color: white;
+          font-size: 16px; }
+        section .container .first .swiper-container .swiper-wrapper div img {
+          width: 100%;
+          height: auto; }
+    section .container .first .content-a {
+      display: flex;
+      width: 100%;
+      height: 30px;
+      font-size: 14px;
+      justify-content: center;
+      align-items: center; }
+      section .container .first .content-a span {
+        display: inline-block;
+        text-align: center;
+        width: 49%; }
+      section .container .first .content-a .span-a {
+        border-right: 1px solid #ccc; }
+      section .container .first .content-a input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: pink;
+        border: none;
+        width: 70%;
+        height: 30px; }
+    section .container .first .kou {
+      margin-top: 10px;
+      padding-left: 100%;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      background: #edf1f4; }
+    section .container .first .content-b {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 110px;
+      border-bottom: 1px solid #ccc; }
+      section .container .first .content-b .txt {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column; }
+        section .container .first .content-b .txt .pp {
+          flex: 1;
+          display: flex;
+          padding-top: 10px;
+          font-size: 12px; }
+      section .container .first .content-b .img {
+        display: flex;
+        Width: 67%; }
+        section .container .first .content-b .img img {
+          width: 100%;
+          height: 100px;
+          justify-content: space-between; }
+  section .ms img, section .nba img, section .xin img {
+    width: 100%;
+    height: auto;
+    overflow: hidden; }
 
-footer { position: fixed; left: 0; bottom: 0px; width: 100%; height: 3.2rem; font-size: 1.04rem; background: white; border-top: 1px solid #ccc; }
-footer ul { display: flex; }
-footer ul li { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; color: black; line-height: 3.08rem; }
-footer ul li i { line-height: 2.2rem; }
-footer ul li b { line-height: 0.4rem; font-weight: normal; font-size: 14px; }
-footer ul .l-active { color: pink; }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 3.2rem;
+  font-size: 1.04rem;
+  background: white;
+  border-top: 1px solid #ccc; }
+  footer ul {
+    display: flex; }
+    footer ul li {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      line-height: 3.08rem; }
+      footer ul li i {
+        line-height: 2.2rem; }
+      footer ul li b {
+        line-height: 0.4rem;
+        font-weight: normal;
+        font-size: 14px; }
+    footer ul .l-active {
+      color: pink; }
 
 /*# sourceMappingURL=index.css.map */

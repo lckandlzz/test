@@ -93,11 +93,13 @@ section{
      .content-wj{
          padding:10px;
          float:right;
+         color:gray;
      }
     .content-dl{
         padding-top:60px;
         width:100%;
          text-align: center;
+         position:relative;
         
       
         input{
@@ -107,8 +109,13 @@ section{
             border:none;
             font-size:21px;
             background:pink;
-           
+            position:absolute;
         }
+        .text2{
+            top:0;
+            
+        }
+      
     }
 }
 footer{
